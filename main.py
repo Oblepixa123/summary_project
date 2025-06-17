@@ -1,8 +1,9 @@
 import datetime
 import random
+import pdfplumber
+
 from random import choice
 from string import printable
-import pdfplumber
 from gtts import gTTS
 
 
