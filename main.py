@@ -14,21 +14,21 @@ def find_answer():
 
   answer_user = input("Что можно сломать даже не трогая? ")
   if answer_user == "тишина":
-    print("ответ верный(вы лузер)")
+    print("ответ верный")
   else:
-    print("отовет не верный(вы лузер)")
+    print("отовет не верный")
 
   user_answer = input("висит груша нельзя скушать, что это? ")
   if user_answer == "мяу":
-    print("ответ верный(вы лузер)")
+    print("ответ верный")
   else:
-    print("отовет не верный(вы лузер)")
+    print("отовет не верный")
 
   user = input("да? ")
   if user == "нет":
-    print("ответ верный(вы лузер)")
+    print("ответ верный")
   else:
-    print("отовет не верный(вы лузер)")
+    print("отовет не верный")
 
 
 
@@ -50,9 +50,9 @@ def guess_number():
   number = random.randint(1, 10)
   choice_user = input("угадай число загаданное ботом: ")
   if choice_user == number:
-    print("вы отгдалали число(вылузер)")
+    print("вы отгдалали число")
   else:
-    print("вы не отгадали число(вылузер)")
+    print("вы не отгадали число")
 
 
 
@@ -64,7 +64,7 @@ def generation_password():
   password = password.replace('\n', random.choice(printable))
   password = password.replace('\x0b', random.choice(printable))
   password = password.replace('\x0c', random.choice(printable))
-  print(password,      "вы лузер")
+  print(password,)
 
 
 
