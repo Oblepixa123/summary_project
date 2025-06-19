@@ -87,21 +87,24 @@ def read_story():
 
 
 
+def main():
+    print("Привет я жертва которую заставили переписывать все проекты в ручную из за плохой политики реплита.")
+    number = 1
+    while number == True :
+        choice_user = input("на выбор у меня есть 9 программ выбери одну из них. 1.загадки 2.определение вашего возраста 3.угадай число 4.генератор паролей 5.история вслух 6.остановить проект. для выбора программы напиши цифру ")
+        if choice_user == "1":
+         find_answer()
+        elif choice_user == "2":
+          age_determination()
+        elif choice_user == "3":
+          guess_number()
+        elif choice_user == "4":
+          generation_password()
+        elif choice_user == "5":
+          read_story()
+        elif choice_user == "6":
+          break
 
-print("Привет я жертва которую заставили переписывать все проекты в ручную из за плохой политики реплита.")
-number = 1
-while number == True :
-  choice_user = input("на выбор у меня есть 9 программ выбери одну из них. 1.загадки 2.определение вашего возраста 3.угадай число 4.генератор паролей 5.история вслух 6.остановить проект. для выбора программы напиши цифру ")
-  if choice_user == "1":
-    find_answer()
-  elif choice_user == "2":
-    age_determination()
-  elif choice_user == "3":
-    guess_number()
-  elif choice_user == "4":
-    generation_password()
-  elif choice_user == "5":
-    read_story()
-  elif choice_user == "6":
-    break
+if __name__ == "__main__":
+  main()
   
